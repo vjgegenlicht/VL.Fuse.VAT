@@ -1,10 +1,13 @@
 # VL.VATFuse
 Examples for Vertex Animation Textures inside VL.Fuse
 
-Fuse is an open source library for visually programming on the GPU, built to enable rapid workflows and modular approaches to accelerated graphics, logic and computation. https://github.com/TheFuseLab/VL.Fuse It is built for use in vvvv gamma ( https://visualprogramming.net/ ) and follows its "always runtime" model allowing for fast design and programming work with no build or compile process in between you and your results.
+Fuse is an open source library for visually programming on the GPU, built to enable rapid workflows and modular approaches to accelerated graphics, logic and computation. https://github.com/TheFuseLab/VL.Fuse 
+It is built for use in vvvv gamma ( https://visualprogramming.net/ ) and follows its "always runtime" model allowing for fast design and programming work with no build or compile process in between you and your results.
 
-Based on SideFX Houdini GameDevelopment Toolset: https://github.com/sideeffects/GameDevelopmentToolset/blob/Development/unity
-using examples from keijiro's Unity implementation https://github.com/keijiro/HdrpVatExample 
+Based on SideFX Houdini GameDevelopment Toolset: 
+https://github.com/sideeffects/GameDevelopmentToolset/blob/Development/unity
+using examples from keijiro's Unity implementation 
+https://github.com/keijiro/HdrpVatExample 
 
 The main goals for this package is to provide examples for the most common VAT and Pivot Painter implementations used by Unreal und Unity. 
 
