@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" Id="GXbTV1dcsbDM685dxJE7xB" LanguageVersion="2021.4.0.388" Version="0.128">
+  <NugetDependency Id="KOwycLmCXlCPpy7m15VJ03" Location="VL.CoreLib" Version="2021.4.0-0388-ge2a327dce8" />
+  <Patch Id="UIYs7OvcDdmNPKKUnIZUnk">
+    <Canvas Id="IoxQjPCWBQaNFrI5sX6jIo" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="O3UxWey5SFqOg5jIyxwWts">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <FullNameCategoryReference ID="Primitive" />
+      </p:NodeReference>
+      <Patch Id="Tq9YRTBnpgwPGzM5aEGY7a">
+        <Canvas Id="CY2AFEWf8h5NbxeWQH77sX" CanvasType="Group">
+          <!--
+
+    ************************ Patch2 ************************
+
+-->
+          <Node Name="Patch2" Bounds="2512,658" Id="MwlbJjbev3gNVXLC3IHu7R">
+            <p:NodeReference>
+              <Choice Kind="ContainerDefinition" Name="Process" />
+              <FullNameCategoryReference ID="Primitive" />
+            </p:NodeReference>
+            <Patch Id="UPIDqmapr1oOi1jEbIUyVr">
+              <Canvas Id="Ale2tlk3iGkMnjH3qnsFmZ" CanvasType="Group" />
+              <Patch Id="UkKLIQZH2bRMku4SCjXv5C" Name="Create" />
+              <Patch Id="NbrhocF7WSZLEy7lPLlUxG" Name="Update" />
+              <ProcessDefinition Id="Umdf4Tj50YhL44wz2Y6wtc">
+                <Fragment Id="L5QhRaZUbaYL9izlv45WHd" Patch="UkKLIQZH2bRMku4SCjXv5C" Enabled="true" />
+                <Fragment Id="ENZOE9MmgwzLvrp6oZStsR" Patch="NbrhocF7WSZLEy7lPLlUxG" Enabled="true" />
+              </ProcessDefinition>
+            </Patch>
+          </Node>
+        </Canvas>
+        <Patch Id="IWJCDNyLXtYPEuITGl0s9B" Name="Create" />
+        <Patch Id="QsaBtuORSLEOFrsel6DaUO" Name="Update" />
+        <ProcessDefinition Id="GCKfYOp7XGFMo0g8pGAp8P">
+          <Fragment Id="CX6H0lr0hcHNf07JkR7jXr" Patch="IWJCDNyLXtYPEuITGl0s9B" Enabled="true" />
+          <Fragment Id="NMKdKnjRMuoMKegxbzYdgp" Patch="QsaBtuORSLEOFrsel6DaUO" Enabled="true" />
+        </ProcessDefinition>
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="S0uUICEdiwJLL7QEiqPNPE" Location="VL.CoreLib" Version="2021.4.0-0388-ge2a327dce8" />
+  <DocumentDependency Id="JZhhOWnZ5CEOItIeU8mvIz" Location="../VL.PBR.Utils.vl" />
+  <NugetDependency Id="D6S0ogIq2Z4MaeGXfO7EQK" Location="VL.Stride" Version="2021.4.0-0388-ge2a327dce8" />
+  <NugetDependency Id="MOsBsItjX8kPAtdC11NrVk" Location="VL.Stride.Runtime" IsForward="true" Version="2021.4.0-0388-ge2a327dce8" />
+  <DocumentDependency Id="Vk5w9OdKGdtN6Q0CYrHSEo" Location="../../../../../../../../../Program Files/vvvv/vvvv_gamma_2021.4.0-0061-g0f03ee8cb3/lib/packs/VL.Stride.Runtime.2021.4.0-0061-g0f03ee8cb3/VL.Stride.HDE.vl" />
+</Document>
