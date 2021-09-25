@@ -29,6 +29,7 @@ Installation:
 and in args.txt you specify:
 
 --package-repositories [path-to]\vl-libs
+More info: https://discourse.vvvv.org/t/referencing-my-vl-helpers-globally-like-a-nuget/19831/3
 
 Or use: Gamme Launcher and add your vl-lib folder to its settings.xml https://vvvv.org/contribution/gamma-launcher
 
