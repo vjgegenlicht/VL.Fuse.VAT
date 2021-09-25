@@ -485,6 +485,7 @@
               <Choice Kind="ProcessAppFlag" Name="HelpAssetPath" />
             </p:NodeReference>
             <Pin Id="NOhOWmobut8QQ17FeXrnp1" Name="Path" Kind="InputPin" />
+            <Pin Id="UWIkNtVRELjPb0z8YPSLaQ" Name="FolderUpCount" Kind="InputPin" />
             <Pin Id="BYHHUFf0QsqPdnWvT8qAH3" Name="Output" Kind="OutputPin" />
           </Node>
           <Pad Id="VEKLTqg24yDOfGCVpypztK" Comment="Path" Bounds="74,410,185,15" ShowValueBox="true" isIOBox="true" Value="content\assets\VAT\Houdini\Soft\vertex_animation_textures1_pos.tif">
@@ -498,6 +499,7 @@
               <Choice Kind="ProcessAppFlag" Name="HelpAssetPath" />
             </p:NodeReference>
             <Pin Id="AfzgxKbD8DAMJGoAOLa0TX" Name="Path" Kind="InputPin" />
+            <Pin Id="SJH3YwizsCMMAqDvTtuXLI" Name="FolderUpCount" Kind="InputPin" />
             <Pin Id="HPpM8m8LmxsO363d8K8pFO" Name="Output" Kind="OutputPin" />
           </Node>
           <Pad Id="NIFA7vuvx2mOKeLybZqnbr" Comment="Path" Bounds="635,417,185,15" ShowValueBox="true" isIOBox="true" Value="content\assets\VAT\Houdini\Soft\vertex_animation_textures1_mesh.fbx">
@@ -511,6 +513,7 @@
               <Choice Kind="ProcessAppFlag" Name="HelpAssetPath" />
             </p:NodeReference>
             <Pin Id="LblOuLnTze7MnRR9Zgcwy9" Name="Path" Kind="InputPin" />
+            <Pin Id="EdP0dP6kb1jL0vx4yCKl8o" Name="FolderUpCount" Kind="InputPin" />
             <Pin Id="GifQDqB8jhRN3dSMNON5tT" Name="Output" Kind="OutputPin" />
           </Node>
           <Pad Id="Uiudyq27Z8SLN8tjaXpVHR" Comment="Path" Bounds="721,889,185,15" ShowValueBox="true" isIOBox="true" Value="content\assets\PBRTextures\Tiles076_1K-JPG\Tiles076_1K_Color.jpg">
@@ -645,5 +648,5 @@
   </Patch>
   <NugetDependency Id="VseghZMGO3QLvpdnShSiyv" Location="VL.Stride" Version="2021.4.0-0406-g88de5ca43d" />
   <NugetDependency Id="TlgOCYpnhQMLdYowRvqQfi" Location="VL.Fuse" Version="0.1.5" />
-  <NugetDependency Id="JYbOBCwjm89PEs8P7iuyuv" Location="VL.FuseVAT" Version="0.0.0.0" />
+  <NugetDependency Id="SlTTl1Jc9SqL4mSJa5G6NO" Location="VL.Fuse.VAT" Version="0.0.0.0" />
 </Document>

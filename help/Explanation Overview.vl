@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="GXbTV1dcsbDM685dxJE7xB" LanguageVersion="2021.4.0.388" Version="0.128">
-  <NugetDependency Id="KOwycLmCXlCPpy7m15VJ03" Location="VL.CoreLib" Version="2021.4.0-0388-ge2a327dce8" />
+<Document xmlns:p="property" Id="GXbTV1dcsbDM685dxJE7xB" LanguageVersion="2021.4.0.406" Version="0.128">
+  <NugetDependency Id="KOwycLmCXlCPpy7m15VJ03" Location="VL.CoreLib" Version="2021.4.0-0406-g88de5ca43d" />
   <Patch Id="UIYs7OvcDdmNPKKUnIZUnk">
     <Canvas Id="IoxQjPCWBQaNFrI5sX6jIo" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -35,6 +35,186 @@
               </ProcessDefinition>
             </Patch>
           </Node>
+          <Node Bounds="601,471,165,19" Id="TKS0qIno2HJNWayMLeeP7Y">
+            <p:NodeReference LastCategoryFullName="Fuse.VAT.Utils" LastSymbolSource="VL.Fuse.VAT.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="VATFramePlayer" />
+            </p:NodeReference>
+            <Pin Id="A3djdZ6SInLOlFju2uhkj4" Name="TextureSize" Kind="InputPin" />
+            <Pin Id="DqIkuCr4hOqLODjo7glV4h" Name="Play" Kind="InputPin" />
+            <Pin Id="Qibtgtn4AXgLWpIl1GMvww" Name="Loop" Kind="InputPin" />
+            <Pin Id="COlPuWy4VaMNGVhGzVxKGi" Name="Reset" Kind="InputPin" />
+            <Pin Id="C6KhOTPGRXYOvxknwSA6FQ" Name="Reverse" Kind="InputPin" />
+            <Pin Id="Und3cX8evQ3PwnIES5I9zA" Name="FrameRate" Kind="InputPin" />
+            <Pin Id="D6VQaMbLKcGQcEITUo1ZxG" Name="FrameCount" Kind="InputPin" />
+            <Pin Id="UQPjmsDyjK3PrxfgBvF3Nd" Name="UseTimelinePlayer" Kind="InputPin" />
+            <Pin Id="Ir9Sm1JpA2END5pVLn27HA" Name="TimeLinePosition" Kind="InputPin" />
+            <Pin Id="E2AVvvdvXAvN9ZUpIBFQnS" Name="Output" Kind="OutputPin" />
+            <Pin Id="S6brWoH0975OnFlkOGoMpG" Name="CurrentFrame" Kind="OutputPin" />
+            <Pin Id="D1p67ACJJSwNhWaS74y8YJ" Name="NextFrame" Kind="OutputPin" />
+            <Pin Id="VzkCX0rq1LtNmDtbvRJqwn" Name="Phase" Kind="OutputPin" />
+            <Pin Id="P8oqagRTAFYNvWYIqaPjB7" Name="Reset" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="598,583,125,19" Id="HE06GqrPnqMMALrUtuGaYs">
+            <p:NodeReference LastCategoryFullName="Fuse.VAT.Houdini" LastSymbolSource="VL.Fuse.VAT.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="VATHoudiniMeshSource" />
+            </p:NodeReference>
+            <Pin Id="GuMlhJSrruULfKgUSgDxJu" Name="Texture" Kind="InputPin" />
+            <Pin Id="Oay7J8sKxP2O6WGON6FjFM" Name="Semantic" Kind="InputPin" />
+            <Pin Id="Ikk6ErITTOROek3mmKUIib" Name="VATFramePlayerControls" Kind="InputPin" />
+            <Pin Id="BeS7kBSd6LXMATxbKQRh3k" Name="EnableFrameBlending" Kind="InputPin" />
+            <Pin Id="GRHo3QY8YbCPCVHMtCuXWB" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="802,582,108,19" Id="VD8rIuHQHi6NQUivbQkwg2">
+            <p:NodeReference LastCategoryFullName="Fuse.VAT.Houdini" LastSymbolSource="VL.Fuse.VAT.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="VATHoudiniParticles" />
+            </p:NodeReference>
+            <Pin Id="PxNU2Njp9fMMCbcEO5VEna" Name="Texture" Kind="InputPin" />
+            <Pin Id="BgWpagxg7NrMVTpBBJyR2i" Name="TextureResolution" Kind="InputPin" />
+            <Pin Id="FykkC9BRpZvLdNyc46svcX" Name="FrameCount" Kind="InputPin" />
+            <Pin Id="PrBrIaNe9VkMfeISGTrj1n" Name="VATFramePlayerControls" Kind="InputPin" />
+            <Pin Id="LKCHA6LnKSFLpnWs0IoyuA" Name="FrameBlending" Kind="InputPin" />
+            <Pin Id="PHWS4C2SWeUOyQuU7dF8Mw" Name="Output" Kind="OutputPin" />
+            <Pin Id="C5IYeSjeFXgLF8v2xaDEJT" Name="Count" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="586,1086,87,19" Id="Euk1EmH59tCNoHk72h6EuA">
+            <p:NodeReference LastCategoryFullName="Fuse.VAT.Utils" LastSymbolSource="VL.Fuse.VAT.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="VATPivotCenter" />
+            </p:NodeReference>
+            <Pin Id="JwHq1HofgUBOVdjCDuiUUd" Name="BoundsMin" Kind="InputPin" />
+            <Pin Id="R1g2eOgZWgzLYPnPDze5PB" Name="BoundsMax" Kind="InputPin" />
+            <Pin Id="NcNyS6U2xXmMC7xbN3bhgp" Name="SwizzleMembers" Kind="InputPin" />
+            <Pin Id="LHwEhQhP4GaPYKZfH0tZDB" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="584,1136,93,19" Id="NQbg4vC7KXfOoTOlIVKvLp">
+            <p:NodeReference LastCategoryFullName="Fuse.VAT.Utils" LastSymbolSource="VL.Fuse.VAT.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="VATPivotPosition" />
+            </p:NodeReference>
+            <Pin Id="Cjq5h2tA28WOWobalRVUCj" Name="BoundsMin" Kind="InputPin" />
+            <Pin Id="CMh7N3DacrvM92CE3BHbVp" Name="BoundsMax" Kind="InputPin" />
+            <Pin Id="P6a47HuV4aFM5VkPCgon5E" Name="SwizzleMembers" Kind="InputPin" />
+            <Pin Id="VBRWH1QJm9KNxF58ZiyuY2" Name="xyz" Kind="OutputPin" />
+            <Pin Id="HDwQtH4WN1HOLHQhxzjqVy" Name="Normalized" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="592,788,104,19" Id="MV1g8NQ1cIvLksPcRyHSEW">
+            <p:NodeReference LastCategoryFullName="Fuse.VAT.Utils" LastSymbolSource="VL.Fuse.VAT.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="VATPositionBounds" />
+            </p:NodeReference>
+            <Pin Id="KsXuuTy5dFsNlWlM1sB6zg" Name="Input" Kind="InputPin" />
+            <Pin Id="QQATeGJtBs2Mr4AGrdUPcI" Name="Min" Kind="InputPin" />
+            <Pin Id="K6EcMuQz4gBOTAZ2mzuGK2" Name="Max" Kind="InputPin" />
+            <Pin Id="E6f6TGhNbybPVYTe86UiEF" Name="SwizzleMembers" Kind="InputPin" />
+            <Pin Id="Ed19fkVegTKOgKUE7A9eXd" Name="Expanded" Kind="OutputPin" />
+            <Pin Id="UwGzr3Mc8U7P4Hy3o0Y7DO" Name="Normalized" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="591,850,103,19" Id="NqvkAl7qtkjP76halWfosq">
+            <p:NodeReference LastCategoryFullName="Fuse.VAT.Utils" LastSymbolSource="VL.Fuse.VAT.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="VATPositionScaling" />
+            </p:NodeReference>
+            <Pin Id="I9rum1JhOPGNHGX1JlW4na" Name="Position" Kind="InputPin" />
+            <Pin Id="MUiHG0BREZnLyLWJUX49Q7" Name="VATScale" Kind="InputPin" />
+            <Pin Id="VBzx7OzsbnWLXd4pvVTeQM" Name="ScaleMultiplier" Kind="InputPin" />
+            <Pin Id="HLJtjlvFRntPZzruvs4ylj" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="590,936,106,19" Id="VR1orMSYxYPPf8Qxcyhkje">
+            <p:NodeReference LastCategoryFullName="Fuse.VAT.Utils" LastSymbolSource="VL.Fuse.VAT.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="VATRecenterToAxis" />
+            </p:NodeReference>
+            <Pin Id="NCRGvUXOOslNxBEl1k9jQO" Name="Input" Kind="InputPin" />
+            <Pin Id="BmkOi6hqOdLOmc8rgCEAxG" Name="SwizzleMembers" Kind="InputPin" />
+            <Pin Id="Jn0TnSEOiUYPXxWYhLoTyv" Name="Multiply" Kind="InputPin" />
+            <Pin Id="U0Qu9MTFFiwOAwAmpkUuLK" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="585,1172,86,19" Id="QoMfMyFHXjaNrQKDc5vzH3">
+            <p:NodeReference LastCategoryFullName="Fuse.VAT.Utils" LastSymbolSource="VL.Fuse.VAT.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="VATRotatePivot" />
+            </p:NodeReference>
+            <Pin Id="VfOpOQMEkpxOQ1ePaEiO2K" Name="quaternion" Kind="InputPin" />
+            <Pin Id="AMIkAdJOYiyMNRhQd3qqWl" Name="BoundsMin" Kind="InputPin" />
+            <Pin Id="Qrn0Pfr9lARMBmnWw8Ox8W" Name="BoundsMax" Kind="InputPin" />
+            <Pin Id="VfmvZmyun1kM5OQhb50wp3" Name="SwizzleMembers" Kind="InputPin" />
+            <Pin Id="UWYzWaqOXUhLLTWziiCaxV" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="TDeT22jBkuyNRGSquATQMM" Bounds="583,740,406,38" ShowValueBox="true" isIOBox="true" Value="Rescale and Swizzle VAT Data from normalized value to objectscale with Bounds values from exporter">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="VPdSu7GSqC6LA2npI3muBH" Bounds="583,829,406,19" ShowValueBox="true" isIOBox="true" Value="Rescale and Swizzle VAT Data from normalized value to objectscale ( If you have no Bounds Values )">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="EpPiM9P4tUzMkufribDKn2" Bounds="595,433,406,38" ShowValueBox="true" isIOBox="true" Value="VAT Frameplayer - Shifts pixels in Y to sample a textures rows ( animation frames )">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="BKtngxZfFdvM7JVxhok87t" Bounds="582,895,406,38" ShowValueBox="true" isIOBox="true" Value="Rescale normalized Values from 0 - 1 from texture to -1 to 1 and recenter to 0">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="HKzFIOpQY2ELZR1wrtUbP1" Bounds="587,686,406,38" ShowValueBox="true" isIOBox="true" Value="Rescale VAT Data ">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">16</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="VZNyekKkzg2OOZPu9jSW7b" Bounds="598,381,406,38" ShowValueBox="true" isIOBox="true" Value="VAT FramePlayer ( CPU )">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">16</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="H63Fi2XUzabMBUuONTF4g9" Bounds="587,540,520,38" ShowValueBox="true" isIOBox="true" Value="VAT Examples for Meshsource and Particles">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">16</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="Iu4reSTLCwPOkUrMHuUZyg" Bounds="576,994,290,66" ShowValueBox="true" isIOBox="true" Value="Vertexcolor stored Pivots for submeshes">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">16</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
         </Canvas>
         <Patch Id="IWJCDNyLXtYPEuITGl0s9B" Name="Create" />
         <Patch Id="QsaBtuORSLEOFrsel6DaUO" Name="Update" />
@@ -45,9 +225,10 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="S0uUICEdiwJLL7QEiqPNPE" Location="VL.CoreLib" Version="2021.4.0-0388-ge2a327dce8" />
+  <NugetDependency Id="S0uUICEdiwJLL7QEiqPNPE" Location="VL.CoreLib" Version="2021.4.0-0406-g88de5ca43d" />
   <DocumentDependency Id="JZhhOWnZ5CEOItIeU8mvIz" Location="../VL.PBR.Utils.vl" />
-  <NugetDependency Id="D6S0ogIq2Z4MaeGXfO7EQK" Location="VL.Stride" Version="2021.4.0-0388-ge2a327dce8" />
-  <NugetDependency Id="MOsBsItjX8kPAtdC11NrVk" Location="VL.Stride.Runtime" IsForward="true" Version="2021.4.0-0388-ge2a327dce8" />
+  <NugetDependency Id="D6S0ogIq2Z4MaeGXfO7EQK" Location="VL.Stride" Version="2021.4.0-0406-g88de5ca43d" />
+  <NugetDependency Id="MOsBsItjX8kPAtdC11NrVk" Location="VL.Stride.Runtime" IsForward="true" Version="2021.4.0-0406-g88de5ca43d" />
   <DocumentDependency Id="Vk5w9OdKGdtN6Q0CYrHSEo" Location="../../../../../../../../../Program Files/vvvv/vvvv_gamma_2021.4.0-0061-g0f03ee8cb3/lib/packs/VL.Stride.Runtime.2021.4.0-0061-g0f03ee8cb3/VL.Stride.HDE.vl" />
+  <NugetDependency Id="Up5IeJtazx9NeRhLSRVx8U" Location="VL.Fuse.VAT" Version="0.0.0.0" />
 </Document>

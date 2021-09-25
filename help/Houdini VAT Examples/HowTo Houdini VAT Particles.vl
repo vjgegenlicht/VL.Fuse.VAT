@@ -511,5 +511,5 @@
   </Patch>
   <NugetDependency Id="VseghZMGO3QLvpdnShSiyv" Location="VL.Stride" Version="2021.4.0-0406-g88de5ca43d" />
   <NugetDependency Id="TlgOCYpnhQMLdYowRvqQfi" Location="VL.Fuse" Version="0.1.5" />
-  <NugetDependency Id="JYbOBCwjm89PEs8P7iuyuv" Location="VL.FuseVAT" Version="0.0.0.0" />
+  <NugetDependency Id="R6uPCMwHx2qNFtWaTGEQEf" Location="VL.Fuse.VAT" Version="0.0.0.0" />
 </Document>

@@ -573,7 +573,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="V4GQFgElUKxOOBMEPZmXt6" Comment="UseTimelinePlayer" Bounds="697,262,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="V4GQFgElUKxOOBMEPZmXt6" Comment="UseTimelinePlayer" Bounds="697,262,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="Boolean" />
               <FullNameCategoryReference ID="Primitive" />
@@ -897,5 +897,5 @@
   </Patch>
   <NugetDependency Id="VseghZMGO3QLvpdnShSiyv" Location="VL.Stride" Version="2021.4.0-0406-g88de5ca43d" />
   <NugetDependency Id="TlgOCYpnhQMLdYowRvqQfi" Location="VL.Fuse" Version="0.1.5" />
-  <NugetDependency Id="JYbOBCwjm89PEs8P7iuyuv" Location="VL.FuseVAT" Version="0.0.0.0" />
+  <NugetDependency Id="GexdtTAzvb7LV7lI1PWQS9" Location="VL.Fuse.VAT" Version="0.0.0.0" />
 </Document>
