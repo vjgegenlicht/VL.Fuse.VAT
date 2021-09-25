@@ -11,7 +11,7 @@ https://github.com/keijiro/HdrpVatExample
 
 The main goals for this package is to provide examples for the most common VAT and Pivot Painter implementations used by Unreal und Unity. 
 
-The next steps:
+### The next steps:
 
 1. Getting it to work with the Fuse PBR Pipeline
 2. Create examples for Epics unreal tools  - Blender VAT Exporter Plugin https://github.com/JoshRBogart/unreal_tools
@@ -19,7 +19,7 @@ The next steps:
 4. Unpack Normals from alpha
 5. Clean up everything to a nice set of Fuse functions
 
-Installation: 
+### Installation:
 
 1. Clone Repo to your local vl-Lib folder.
 2. If you dont have a folder for local packages create one and add it args.txt inside your sketches folder ( documents\vvvv\gamma-preview\Sketches\args.text ) 
