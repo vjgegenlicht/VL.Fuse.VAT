@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="UIv5B0vuxb4NyhbI0MgaKO" LanguageVersion="2023.5.3-0166-g682b88c86f" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="NzkdiDIk1i9MDGIAOQ7Sya" LanguageVersion="2023.5.3-0166-g682b88c86f" Version="0.128">
   <NugetDependency Id="BVDpkBMjTtUOcTT3QazVlU" Location="VL.CoreLib" Version="2023.5.3-0166-g682b88c86f" />
   <Patch Id="N7c0ES3N98CPxHnGoyXBjC">
     <Canvas Id="BYypoJn2IxpM62VapsNUMl" DefaultCategory="Fuse.VAT" CanvasType="FullCategory">
@@ -642,7 +642,7 @@
           </Patch>
         </Node>
       </Canvas>
-      <Canvas Id="HKlQltN0AB0QTp8kwjLcwd" Name="Utils" Position="453,394">
+      <Canvas Id="HKlQltN0AB0QTp8kwjLcwd" Name="Utils" Position="449,371">
         <!--
 
     ************************ VATFramePlayer ************************
@@ -2904,4 +2904,5 @@
   <NugetDependency Id="N9ZEmCA48HiL0RxVlYuOfR" Location="VL.Stride" Version="2023.5.3-0166-g682b88c86f" />
   <NugetDependency Id="M45RtOSakzNLeiYN21JQV9" Location="VL.Stride.Runtime" Version="2023.5.3-0166-g682b88c86f" />
   <NugetDependency Id="QIYDaumJyI6L7yR9FKbwGj" Location="VL.Fuse" Version="0.1.5" />
+  <DocumentDependency Id="TgoK7Vxzd2gOnVRHJIdqBw" Location="./vl/vl.EXRConverter.vl" IsForward="true" />
 </Document>
