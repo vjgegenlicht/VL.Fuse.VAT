@@ -493,8 +493,6 @@
             </p:NodeReference>
             <Pin Id="B7NQlBf3QLKQdBnPiuIoYy" Name="Iteration Count" Kind="InputPin" />
             <Pin Id="MqCOpZ7ojqDQF2xtjI9tUp" Name="Break" Kind="OutputPin" />
-            <ControlPoint Id="TQrogrIpehBLSDUXW5NPo1" Bounds="129,437" Alignment="Bottom" />
-            <ControlPoint Id="SGbNsvunIL1QHJfdFjQcpz" Bounds="153,360" Alignment="Top" />
             <Patch Id="Eil0szaD2FTLVrnR6c2na2" ManuallySortedPins="true">
               <Patch Id="TeYiQQY1aIcPfwg4A7rrg9" Name="Create" ManuallySortedPins="true" />
               <Patch Id="TCE98mKrtrcP2AtPUFTheN" Name="Update" ManuallySortedPins="true" />
@@ -506,11 +504,11 @@
                   <Choice Kind="ProcessAppFlag" Name="PLYConverterExtension" />
                 </p:NodeReference>
                 <Pin Id="FLwwTC58VoMQXUbfdEba4x" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                <Pin Id="LGhEDmivIGTMJRQWqlkxn8" Name="On Close" Kind="OutputPin" />
+                <Pin Id="OdNCtzJfxAOPGTlhGoHyQz" Name="Update" Kind="InputPin" />
               </Node>
             </Patch>
           </Node>
-          <Node Bounds="126,452,69,19" Id="EiDzDI0MgwEPO5HxzJuRO9">
+          <Node Bounds="141,515,69,19" Id="EiDzDI0MgwEPO5HxzJuRO9">
             <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FrameDelay" />
@@ -537,11 +535,8 @@
         <Link Id="Dos6zeYlNwfMhU992fevQA" Ids="NTgUjtmbEjYLXKABAqnK8y,PXvbbrLpNPlQBq6D1ostcn" />
         <Link Id="B2CVcdJBWnbO0ZmA0hrikJ" Ids="CkyXEHEazBxPBfbZDEbKpN,PejZgmgu3MzMbjmoWpWQsw" />
         <Link Id="ViqCxwjwR15PuxDDFTi52s" Ids="BKUOMqwgdtxORRqfiBEyhc,B7NQlBf3QLKQdBnPiuIoYy" />
-        <Link Id="Ro6k4HcPLwbOSGTUJxHayt" Ids="SGbNsvunIL1QHJfdFjQcpz,TQrogrIpehBLSDUXW5NPo1" IsFeedback="true" />
-        <Link Id="IPxojJKLSQxOhnVTlnGYQ1" Ids="TQrogrIpehBLSDUXW5NPo1,JPlGEtBFT4nNB8LuVy2KPx" />
         <Link Id="B1x06r6qmViNj7A9UTGTka" Ids="AlXhNXTjYcpLHRWH0mYYRJ,B9gmYt8WELaOOCnbCd33Fa,PTHiPJyg6rzN9DtOhZykBn,Gis7iAs4Jl1LYMr06AECNV,Bn7ZEEzmjsNNU5w7nsQzOl,DzRT3g2DkFAPpYgkIjYM3b" />
         <Link Id="FVwfA6WVZUaPYTQgy88ais" Ids="J9iOUAHX5K6NhC1dunNF7A,RSCWeD85KtiQMwfq7BWJHU" />
-        <Link Id="FpDeo261HUbN94ooJ1M6BT" Ids="LGhEDmivIGTMJRQWqlkxn8,TQrogrIpehBLSDUXW5NPo1" />
       </Patch>
     </Node>
   </Patch>
