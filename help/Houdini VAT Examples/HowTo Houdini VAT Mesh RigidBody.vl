@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="RcoaoPccvGaMryyVZpdJ9j" LanguageVersion="2023.5.3-0166-g682b88c86f" Version="0.128">
-  <NugetDependency Id="DPtgObojUSaQZqCoWyH23Y" Location="VL.CoreLib" Version="2023.5.3-0166-g682b88c86f" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="RcoaoPccvGaMryyVZpdJ9j" LanguageVersion="2024.6.6" Version="0.128">
+  <NugetDependency Id="DPtgObojUSaQZqCoWyH23Y" Location="VL.CoreLib" Version="2024.6.6" />
   <Patch Id="VMzIlhH6mQNPCtc9W0ZlrE">
     <Canvas Id="KX0gl3JcJhdOUdmN4SMC3M" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -103,7 +103,7 @@
             <Pin Id="MJBlEQHu01iM3oYUjWiUX4" Name="Output" Kind="OutputPin" />
             <Pin Id="RhKrO3PJ20TNEcmIRw6pUx" Name="Semantic" Kind="InputPin" DefaultValue="TexCoord" />
           </Node>
-          <Node Bounds="641,1786,205,19" Id="P645NQRwwVoQD0rubpjwGZ">
+          <Node Bounds="641,1786,225,19" Id="P645NQRwwVoQD0rubpjwGZ">
             <p:NodeReference LastCategoryFullName="Fuse.Draw" LastDependency="VL.Fuse.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="HelpWindow (3D View)" />
@@ -121,6 +121,9 @@
             <Pin Id="VFvp8OqKOQYN4WFJo1upVP" Name="LightPreset" Kind="InputPin" DefaultValue="1" />
             <Pin Id="MLy8Xb2sfesOTaIlHiaYJg" Name="Background Enabled" Kind="InputPin" DefaultValue="False" />
             <Pin Id="BRPsL9vauuvQITq4KwNnE6" Name="Title" Kind="InputPin" IsHidden="true" />
+            <Pin Id="D1rNVfPhdALNNLdyyi7ehQ" Name="Output" Kind="OutputPin" />
+            <Pin Id="DeEurpzK7kfORtQJ8Az8pL" Name="Enabled" Kind="InputPin" />
+            <Pin Id="EeqzXWdaUjDOZZiBA4vgp2" Name="Game Window" Kind="OutputPin" />
           </Node>
           <Pad Id="SYc48PJKu2fMS4N0EDTZxI" Comment="" Bounds="902,580,350,16" ShowValueBox="true" isIOBox="true" Value="content\assets\VAT\Houdini\Rigid\vertex_animation_textures1_pos.tif">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -1094,7 +1097,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="VseghZMGO3QLvpdnShSiyv" Location="VL.Stride" Version="2023.5.3-0166-g682b88c86f" />
+  <NugetDependency Id="VseghZMGO3QLvpdnShSiyv" Location="VL.Stride" Version="2024.6.6" />
   <NugetDependency Id="TlgOCYpnhQMLdYowRvqQfi" Location="VL.Fuse" Version="0.1.5" />
   <NugetDependency Id="GexdtTAzvb7LV7lI1PWQS9" Location="VL.Fuse.VAT" Version="0.0.0.0" />
+  <NugetDependency Id="EzJ3idDrVfyMIfaaqcHGS9" Location="VL.Stride.TextureFX" Version="2024.6.6" />
 </Document>

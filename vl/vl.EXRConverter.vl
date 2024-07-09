@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="UfwwTvnJwvhNVcvpgGv0O3" LanguageVersion="2023.5.3-0166-g682b88c86f" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="UfwwTvnJwvhNVcvpgGv0O3" LanguageVersion="2023.5.3-0228-gfb315638f6" Version="0.128">
   <Patch Id="EiC2K0t1B6MPlbQYyuTL8i">
     <Canvas Id="RulSNwzynDMQbiFq8LZRkR" DefaultCategory="PLYConverter" CanvasType="FullCategory">
       <!--
@@ -4144,14 +4144,12 @@
                   </p:NodeReference>
                   <Pin Id="KcxbX3lDNWpNLprpU7Yvef" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="SLFcSEqWNVHPlB3XYp5lQ6" Name="AttributeValues" Kind="InputPin" />
-                  <Pin Id="Fqnv26iRRwMLwjLqLOa5b8" Name="Resource Dimensions" Kind="InputPin" />
                   <Pin Id="SWQc24SH4lFLbQvwCLS28B" Name="External Scheduler" Kind="InputPin" IsHidden="true" />
                   <Pin Id="FC6Q7EEuDl7MbRzioqxJa0" Name="Compute Stage" Kind="InputPin" />
                   <Pin Id="HHWnTVDFfdbNxjL4FGyDf1" Name="Enabled" Kind="InputPin" DefaultValue="True" />
                   <Pin Id="TTqMvUixtTnPAq7rBsmOYk" Name="Output" Kind="OutputPin" />
-                  <Pin Id="NDyxMfwyjC2LGGM1xz32U4" Name="structuredBufferAttributeHandler" Kind="OutputPin" />
-                  <Pin Id="MJcwkSCtwIbP3xWAbzweHE" Name="Texture Attribute Handler" Kind="OutputPin" />
                   <Pin Id="NWk7Veb1t8APS2NRRBJ50e" Name="Has Changed" Kind="OutputPin" />
+                  <Pin Id="Fqnv26iRRwMLwjLqLOa5b8" Name="Resource Dimensions" Kind="InputPin" />
                 </Node>
                 <Node Bounds="196,1267,145,19" Id="FqNjDq4NYgNNgHFgfPh3tJ">
                   <p:NodeReference LastCategoryFullName="Fuse.Core.ComputeShader" LastDependency="VL.Fuse.vl">
@@ -4184,7 +4182,6 @@
                   <Pin Id="EBITXljLJCpLNoRb4KdPUa" Name="Output" Kind="StateOutputPin" />
                   <Pin Id="MmOQuM3csc8L65qwbG3gcz" Name="Last Error" Kind="OutputPin" />
                   <Pin Id="G95JUIKNAa8NErD1MO83ox" Name="Shader Code" Kind="OutputPin" />
-                  <Pin Id="O5GgulqEVW5MzfRTre5gWy" Name="Group" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="110,1396,58,19" Id="SWQ3V8dJGm4Nzx2S7YLeAf">
                   <p:NodeReference LastCategoryFullName="Fuse.Particles.Attribute" LastDependency="VL.Fuse.vl">
@@ -4203,7 +4200,9 @@
                   <Pin Id="SYmCBEcVHRvNP2I6NM9HdV" Name="Color" Kind="InputPin" />
                   <Pin Id="T10lZqN8lqbMXkGorXq1Hh" Name="Position" Kind="InputPin" />
                   <Pin Id="BJOfsW09QpFNTUueoFJpNK" Name="Size" Kind="InputPin" />
+                  <Pin Id="D2cj00zQvL2LwhNmRwiJ5W" Name="Size2D" Kind="InputPin" IsHidden="true" />
                   <Pin Id="Lx7jYZjiA42NYbg8s7exkz" Name="Normal" Kind="InputPin" />
+                  <Pin Id="KITIVp4P4ufOZYPEf0wz40" Name="Draw Dots" Kind="InputPin" />
                   <Pin Id="HxxpL2NNFBRO29UaTExSEF" Name="Output" Kind="OutputPin" />
                   <Pin Id="JZJ1IgpV1AQP77XEG1YXRj" Name="Shader Code" Kind="OutputPin" />
                   <Pin Id="I92d9BWJj1oOAJvcDt96nw" Name="Error Message" Kind="OutputPin" />
@@ -4258,20 +4257,21 @@
                     <Choice Kind="ProcessAppFlag" Name="BufferToRenderEntity" />
                   </p:NodeReference>
                   <Pin Id="CLOP6wrbbhHOpC2ukRHdQx" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                  <Pin Id="Cgm02OSPK0eOGiPAGYzzx5" Name="ComputeSystem" Kind="InputPin" />
-                  <Pin Id="SRyXam5VmKfNk1PuODPd2V" Name="Group" Kind="InputPin" />
+                  <Pin Id="S4l0DOedA28Mqrsp0ovYHz" Name="Resource" Kind="InputPin" />
                   <Pin Id="Fx56tcrpEIaNnulTMKWVQB" Name="Transformation" Kind="InputPin" />
                   <Pin Id="FI6qCuuSMYxNJPGEU4A6TJ" Name="Draw Shader" Kind="InputPin" />
                   <Pin Id="KZaTmepf9GDPxvRCWt25nj" Name="Render Stage" Kind="InputPin" />
                   <Pin Id="GVhLYK1v9NbLyNB0Q5Pbay" Name="Blend State" Kind="InputPin" />
                   <Pin Id="Nxl6dllLAwTLii3cEQ44e8" Name="Rasterizer State" Kind="InputPin" />
                   <Pin Id="BioPIMzseMSODIGzCJ8gO7" Name="Depth Stencil State" Kind="InputPin" />
-                  <Pin Id="TTDN2Sreqp3N2qo2wZGKVw" Name="Topology" Kind="InputPin" />
                   <Pin Id="UMhWOoJ8TYAM7lXTaosQJw" Name="Indices" Kind="InputPin" />
+                  <Pin Id="TTDN2Sreqp3N2qo2wZGKVw" Name="Topology" Kind="InputPin" />
                   <Pin Id="McNl0hRDnaBQDJw3yaBzIk" Name="Bounding Box" Kind="InputPin" />
                   <Pin Id="FTBpZISwoZ1MArshjoxhYI" Name="Mesh" Kind="InputPin" IsHidden="true" />
                   <Pin Id="AoFo2WG10c5LDaqlnlgLdf" Name="Enabled" Kind="InputPin" DefaultValue="True" />
                   <Pin Id="IPA4pC3ZC0GMkwZElf58oA" Name="Entity" Kind="OutputPin" />
+                  <Pin Id="Cgm02OSPK0eOGiPAGYzzx5" Name="ComputeSystem" Kind="InputPin" />
+                  <Pin Id="SRyXam5VmKfNk1PuODPd2V" Name="Group" Kind="InputPin" />
                 </Node>
                 <Node Bounds="538,931,65,19" Id="Fp2vbllsQvXPRDeqOO4z4P">
                   <p:NodeReference LastCategoryFullName="Fuse.Buffer" LastDependency="VL.Fuse.vl">
@@ -15510,7 +15510,7 @@
         <Patch Id="IYYJBOM68WMMMTPfyFkApr">
           <Canvas Id="HfRkjbwvkolQPaSKzyjTXw" CanvasType="Group">
             <Node Bounds="332,399,76,19" Id="JqKlo9moyjNL0L7yQnCxSZ">
-              <p:NodeReference LastCategoryFullName="Stride.Rendering" LastDependency="VL.Stride.vl">
+              <p:NodeReference LastCategoryFullName="Stride.Rendering" LastDependency="VL.Stride.Runtime.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="SkiaRenderer" />
               </p:NodeReference>
@@ -15751,16 +15751,16 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="PUQKpKCZX39LeAVULJJT5R" Location="VL.CoreLib" Version="2023.5.3-0166-g682b88c86f" />
+  <NugetDependency Id="PUQKpKCZX39LeAVULJJT5R" Location="VL.CoreLib" Version="2023.5.3-0228-gfb315638f6" />
   <NugetDependency Id="QL1YWhTXw4fOxEAxXN9Ucy" Location="VL.OpenEXR" Version="0.3.1" />
-  <NugetDependency Id="FZjIPQaDwuYP7GyXoSj4nu" Location="VL.Stride" Version="2023.5.3-0166-g682b88c86f" />
+  <NugetDependency Id="FZjIPQaDwuYP7GyXoSj4nu" Location="VL.Stride" Version="2023.5.3-0228-gfb315638f6" />
   <NugetDependency Id="JO6rfTg7b04OQv0p82hL4a" Location="VL.Fuse" Version="0.0.0.0" />
-  <NugetDependency Id="IuKT1eten04QJUv9z22Ub5" Location="VL.Stride.Runtime" Version="2023.5.3-0166-g682b88c86f" />
+  <NugetDependency Id="IuKT1eten04QJUv9z22Ub5" Location="VL.Stride.Runtime" Version="2023.5.3-0228-gfb315638f6" />
   <NugetDependency Id="AmQqGhVSUUFMZkrodmwF6E" Location="VL.IO.PLY" Version="0.0.6-alpha" />
-  <NugetDependency Id="Qkug6T3RKAQN73rC2SSrOL" Location="VL.ImGui.Skia" Version="2023.5.3-0166-g682b88c86f" />
-  <NugetDependency Id="Eiw6QDCAq5UPcq36406CpW" Location="VL.Skia" Version="2023.5.3-0166-g682b88c86f" />
-  <NugetDependency Id="G7SSfmfIduGMXU5POZFsnO" Location="VL.ImGui" Version="2023.5.3-0166-g682b88c86f" />
-  <NugetDependency Id="Ecl4in6daGOMiDcVgkTYSo" Location="VL.CoreLib.Windows" Version="2023.5.3-0166-g682b88c86f" />
-  <NugetDependency Id="Dw5Rkb3CC4xNHSuY3Z9pNb" Location="VL.HDE" Version="2023.5.3-0166-g682b88c86f" />
+  <NugetDependency Id="Qkug6T3RKAQN73rC2SSrOL" Location="VL.ImGui.Skia" Version="2023.5.3-0228-gfb315638f6" />
+  <NugetDependency Id="Eiw6QDCAq5UPcq36406CpW" Location="VL.Skia" Version="2023.5.3-0228-gfb315638f6" />
+  <NugetDependency Id="G7SSfmfIduGMXU5POZFsnO" Location="VL.ImGui" Version="2023.5.3-0228-gfb315638f6" />
+  <NugetDependency Id="Ecl4in6daGOMiDcVgkTYSo" Location="VL.CoreLib.Windows" Version="2023.5.3-0228-gfb315638f6" />
+  <NugetDependency Id="Dw5Rkb3CC4xNHSuY3Z9pNb" Location="VL.HDE" Version="2023.5.3-0228-gfb315638f6" />
   <NugetDependency Id="KZgNoSml1lCLOHT3Ma57X9" Location="VL.Elementa" Version="5.0.12" />
 </Document>

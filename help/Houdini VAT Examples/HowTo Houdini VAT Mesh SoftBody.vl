@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="VhtCCZdQ5G9Nn7FsFsSkFl" LanguageVersion="2023.5.3-0166-g682b88c86f" Version="0.128">
-  <NugetDependency Id="DPtgObojUSaQZqCoWyH23Y" Location="VL.CoreLib" Version="2023.5.3-0166-g682b88c86f" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="VhtCCZdQ5G9Nn7FsFsSkFl" LanguageVersion="2024.6.6" Version="0.128">
+  <NugetDependency Id="DPtgObojUSaQZqCoWyH23Y" Location="VL.CoreLib" Version="2024.6.6" />
   <Patch Id="VMzIlhH6mQNPCtc9W0ZlrE">
     <Canvas Id="KX0gl3JcJhdOUdmN4SMC3M" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -104,13 +104,13 @@
               <p:sliderdirection p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.SliderDirectionEnum">Horizontal</p:sliderdirection>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="-48,1149,205,19" Id="P645NQRwwVoQD0rubpjwGZ">
+          <Node Bounds="-48,1149,225,19" Id="P645NQRwwVoQD0rubpjwGZ">
             <p:NodeReference LastCategoryFullName="Fuse.Draw" LastDependency="VL.Fuse.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="HelpWindow (3D View)" />
             </p:NodeReference>
             <Pin Id="BdhFsmtGuJGND9LC4gn3bj" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="GoyiyqmYdxVLCt0olFQGKZ" Name="Bounds" Kind="InputPin" DefaultValue="1262, 370, 1115, 988" />
+            <Pin Id="GoyiyqmYdxVLCt0olFQGKZ" Name="Bounds" Kind="InputPin" DefaultValue="279, 520, 1115, 988" />
             <Pin Id="Dl4sx718UjmQLQJfFD9wXq" Name="Scene" Kind="InputPin" />
             <Pin Id="UUeFVucmjdgMPjXKaG3WTf" Name="Camera" Kind="InputPin" />
             <Pin Id="NdGeBv7dCdWL65AUQATnpd" Name="PostFX Enabled" Kind="InputPin" DefaultValue="False" />
@@ -122,6 +122,9 @@
             <Pin Id="VFvp8OqKOQYN4WFJo1upVP" Name="LightPreset" Kind="InputPin" DefaultValue="3" />
             <Pin Id="MLy8Xb2sfesOTaIlHiaYJg" Name="Background Enabled" Kind="InputPin" />
             <Pin Id="SzUN2i4BziMLamcwyuEj2V" Name="Title" Kind="InputPin" IsHidden="true" />
+            <Pin Id="VEfJuOi47DFLrmJzhObjBV" Name="Enabled" Kind="InputPin" />
+            <Pin Id="As8XayH49xKNWtTZMvLBOx" Name="Output" Kind="OutputPin" />
+            <Pin Id="OQRqDkM4KcbO7JkZPoz75m" Name="Game Window" Kind="OutputPin" />
           </Node>
           <Node Bounds="35,582,25,19" Id="HSSaHrxBZapNqD2S0AwtEV">
             <p:NodeReference LastCategoryFullName="Fuse.Math" LastDependency="VL.Fuse.vl">
@@ -738,7 +741,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="VseghZMGO3QLvpdnShSiyv" Location="VL.Stride" Version="2023.5.3-0166-g682b88c86f" />
+  <NugetDependency Id="VseghZMGO3QLvpdnShSiyv" Location="VL.Stride" Version="2024.6.6" />
   <NugetDependency Id="TlgOCYpnhQMLdYowRvqQfi" Location="VL.Fuse" Version="0.1.5" />
   <NugetDependency Id="SlTTl1Jc9SqL4mSJa5G6NO" Location="VL.Fuse.VAT" Version="0.0.0.0" />
+  <NugetDependency Id="MEpprlB9LuxMgZihI6q4m4" Location="VL.Stride.TextureFX" Version="2024.6.6" />
 </Document>
